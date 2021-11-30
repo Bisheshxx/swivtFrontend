@@ -39,7 +39,7 @@ const Datamap=({data})=> {
 
     return (
         <div className="Datamap">
-            <input style={{width:"30%",marginLeft:"35%",marginRight:"35%",marginTop:"30px", height:"50px"}} id="searchBar" type="text" placeholder="Search.." onChange={(e)=>{setSearch(e.target.value)}}></input>
+            <input style={{width:"30%",marginLeft:"35%",marginRight:"35%",marginTop:"30px", height:"50px", fontSize:"20px"}} id="searchBar" type="text" placeholder="Search.." onChange={(e)=>{setSearch(e.target.value)}}></input>
             <Row xs={1} md={3} className="g-4" style={{ marginTop: "1in", marginBottom: "1in" }}>
             
                 {/* {data && data.length> 0 && data.filter((item)=>{
