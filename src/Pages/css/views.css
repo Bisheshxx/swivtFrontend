@@ -1,0 +1,46 @@
+.Viewbody__container{
+    margin-top: 20px;
+    width: 700px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: grey;
+}
+.viewbody__header{
+    font-size: 15px;
+}
+.viewbody__header p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: aqua;
+    margin-left: 30px;
+}
+.ptag{
+    margin-top: 0px !important;
+    font-size: 10px !important;
+}
+.viewbody_body{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.viewbody__desc{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.viewbody__footer{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.StarIcon{
+    size: 10px;
+}
+.star{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
